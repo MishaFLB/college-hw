@@ -2,20 +2,17 @@
 using namespace std;
 
 int main() {
-    float A, B, C;
+    int A, B, C;
 
-    cout << "Введіть розмір A: ";
+    cout << "Введіть A: ";
     cin >> A;
-    cout << "Введіть розмір B: ";
+    cout << "Введіть B: ";
     cin >> B;
-    cout << "Введіть розмір C: ";
+    cout << "Введіть C: ";
     cin >> C;
 
-    float surfaceArea = 2 * (A * B + A * C + B * C);
-    float volume = A * B * C;
-
-    cout << "S: " << surfaceArea << endl;
-    cout << "V: " << volume << endl;
+    std::cout << "S:" << (2 * (A * B + A * C + B * C)) << std::endl;
+    std::cout << "V:" << (A * B * C) << std::endl;
 
     return 0;
 }
