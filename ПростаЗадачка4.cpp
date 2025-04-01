@@ -11,8 +11,8 @@ int main() {
     cout << "Введіть C: ";
     cin >> C;
 
-    cout << "S:" << (2 * (A * B + A * C + B * C)) << std::endl;
-    cout << "V:" << (A * B * C) << std::endl;
+    cout << "S:" << (2 * (A * B + A * C + B * C)) << endl;
+    cout << "V:" << (A * B * C) << endl;
 
     return 0;
 }
