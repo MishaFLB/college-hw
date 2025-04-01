@@ -4,13 +4,13 @@ using namespace std;
 int main() {
     int a, b;
 
-    std::cout << "Введіть число a:";
-    std::cin >> a;
-    std::cout << "Введіть число b:";
-    std::cin >> b;
+    cout << "Введіть число a:";
+    cin >> a;
+    cout << "Введіть число b:";
+    cin >> b;
 
-    std::cout << "Сума:" << (a + b) << std::endl;
-    std::cout << "Різниця:" << (a - b) << std::endl;
-    std::cout << "Добуток:" << (a * b) << std::endl;
+    cout << "Сума:" << (a + b) << endl;
+    cout << "Різниця:" << (a - b) << endl;
+    cout << "Добуток:" << (a * b) << endl;
     return 0;
 }
